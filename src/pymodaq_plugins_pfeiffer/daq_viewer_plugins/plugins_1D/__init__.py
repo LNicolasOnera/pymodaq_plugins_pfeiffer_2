@@ -1,6 +1,6 @@
 import importlib
 from pathlib import Path
-from ... import set_logger
+from src.pymodaq_plugins_alcatel import set_logger
 logger = set_logger('viewer1D_plugins', add_to_console=False)
 
 for path in Path(__file__).parent.iterdir():
